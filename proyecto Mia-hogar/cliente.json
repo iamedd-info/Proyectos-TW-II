@@ -1,0 +1,16 @@
+{
+    "cliente":{
+	  "clientes":[
+	  	{"nombre":"Maria","Apellido":"García","Direccion":"20 de noviembre", "Telefono":"951-555-55-55","correoelectronico":"maria@hotmail.com"},
+	  	{"nombre":"Dulce","Apellido":"Hernandez","Direccion":"santa cecilia", "Telefono":"951-666-66-66","correoelectronico":"Dulceamargo@hotmail.com"},
+	  	{"nombre":"Esteban","Apellido":"Bustamente","Direccion":"20 de diciembre", "Telefono":"951-777-77-77","correoelectronico":"esteban@hotmail.com"},
+	  	{"nombre":"Lucas","Apellido":"Figueroa","Direccion":"16 de septiembre", "Telefono":"951-888-88-55","correoelectronico":"picarico@hotmail.com"},
+	  	{"nombre":"Angelica","Apellido":"Brena","Direccion":"3 de octubre", "Telefono":"951-101-55-55","correoelectronico":"angela@hotmail.com"},
+	  	{"nombre":"Guadalupe","Apellido":"Hernandez","Direccion":"Barrio san francisco", "Telefono":"951-55-505-65","correoelectronico":"guadalupe@hotmail.com"},
+	  	{"nombre":"Elza","Apellido":"Figueroa","Direccion":"Barrio chico", "Telefono":"951-444-45-56","correoelectronico":"Frozen@hotmail.com"},
+	  	{"nombre":"Eugenia","Apellido":"Ruiz","Direccion":"Barrio grande", "Telefono":"951-888-88-8","correoelectronico":"eugenia@hotmail.com"},
+	  	{"nombre":"Mario","Apellido":"Jimenez","Direccion":"Barrio ancho", "Telefono":"951-999-99-55","correoelectronico":"mario@hotmail.com"},
+	  	{"nombre":"Rolando","Apellido":"Pedro","Direccion":"San francisco", "Telefono":"951-111-11-11","correoelectronico":"pacificosur@hotmail.com"}
+	  ]        
+    }
+}

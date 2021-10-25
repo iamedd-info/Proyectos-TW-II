@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formulariocontacto>
+	<contacto>
+		<nombre>Rosario</nombre>
+		<direccion>colonia 20 de noviembre</direccion>
+		<telefono>951-555-55-55</telefono>
+	</contacto>
+	<contacto>
+		<nombre>Eduardo</nombre>
+		<direccion>santa cecilia</direccion>
+		<telefono>951-111-11-11</telefono>
+	</contacto>
+	<contacto>
+		<nombre>Ingrid</nombre>
+		<direccion>palma</direccion>
+		<telefono>951-222-22-22</telefono>
+	</contacto>
+</formulariocontacto>
