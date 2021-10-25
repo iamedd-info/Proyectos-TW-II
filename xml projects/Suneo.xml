@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="miestilo.css"?>
+<suneo>
+	<utm>
+		<nombre>UTM </nombre>
+		<ubicacion>Campus: Huajuapan </ubicacion>
+		<licenciaturas>Licenciaturas: 12 </licenciaturas>
+		<postgrados>Postgrados: 16 </postgrados>
+		<profesores>Profesores: 300</profesores>
+		<margen>_________________________________________________________________________</margen>
+	</utm>
+	<unitsmo>
+<campus>
+<nombre>UNITSMO </nombre>
+<ubicacion>Campus: Juchitan </ubicacion>
+<licenciaturas>Licenciaturas: 2 </licenciaturas>
+<postgrados>Postgrados: 0 </postgrados>
+<profesores>Profesores: 17 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+<nombre>UNITSMO </nombre>
+<ubicacion>Campus: Ixtepec </ubicacion>
+<licenciaturas>Licenciaturas: 4 </licenciaturas>
+<postgrados>Postgrados: 1 </postgrados>
+<profesores>Profesores: 42 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+<nombre>UNITSMO </nombre>
+<ubicacion>Campus: Tehuantepec </ubicacion>
+<licenciaturas>Licenciaturas: 7 </licenciaturas>
+<postgrados>Postgrados: 2 </postgrados>
+<profesores>Profesores: 79</profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+</unitsmo>
+
+<umar>
+<campus>
+<nombre>UMAR </nombre>
+<ubicacion>Campus: Puerto Escondido </ubicacion>
+<licenciaturas>Licenciaturas: 5 </licenciaturas>
+<postgrados>Postgrados: 4 </postgrados>
+<profesores>Profesores: 80 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+<nombre>UMAR </nombre>
+<ubicacion>Campus: Puerto angel </ubicacion>
+<licenciaturas>Licenciaturas: 6 </licenciaturas>
+<postgrados>Postgrados: 4 </postgrados>
+<profesores>Profesores: 106 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+
+<nombre>UMAR </nombre>
+<ubicacion>Campus: Huatulco</ubicacion>
+<licenciaturas>Licenciaturas: 5 </licenciaturas>
+<postgrados>Postgrados: 3 </postgrados>
+<profesores>Profesores: 88 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+<nombre>UMAR </nombre>
+<ubicacion>Campus: Oaxaca </ubicacion>
+<licenciaturas>Licenciaturas: 1 </licenciaturas>
+<postgrados>Postgrados: 0 </postgrados>
+<profesores>Profesores: 0 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+</umar>
+
+<unpa>
+<campus>
+<nombre>UNPA</nombre>
+<ubicacion>Campus: Tuxtepec </ubicacion>
+<licenciaturas>Licenciaturas: 5 </licenciaturas>
+<postgrados>Postgrados: 4 </postgrados>
+<profesores>Profesores: 95  </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+<nombre>UNPA </nombre>
+<ubicacion>Campus: Loma Bonita </ubicacion>
+<licenciaturas>Licenciaturas: 7 </licenciaturas>
+<postgrados>Postgrados: 1 </postgrados>
+<profesores>Profesores: 68 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+</unpa>
+
+<unsis>
+<nombre>UNSIS </nombre>
+<ubicacion>Campus: Miahuatlán </ubicacion>
+<licenciaturas>Licenciaturas: 8 </licenciaturas>
+<postgrados>Postgrados: 4 </postgrados>
+<profesores>Profesores: 300 </profesores>
+<margen>_________________________________________________________________________</margen>
+</unsis>
+
+<unsij>
+<nombre>UNSIJ  </nombre>
+<ubicacion>Campus: Ixtlán de Juarez  </ubicacion>
+<licenciaturas>Licenciaturas: 6 </licenciaturas>
+<postgrados>Postgrados: 2 </postgrados>
+<profesores>Profesores: 47 </profesores>
+<margen>_________________________________________________________________________</margen>
+</unsij>
+
+<unca>
+<nombre>UNCA </nombre>
+<ubicacion>Campus: Teotitlán de Flores Magón </ubicacion>
+<licenciaturas>Licenciaturas: 6 </licenciaturas>
+<postgrados>Postgrados: 0  </postgrados>
+<profesores>Profesores: 41 </profesores>
+<margen>_________________________________________________________________________</margen>
+</unca>
+
+<novauniversitas>
+<campus>
+<nombre>NOVA UNIVERSITAS </nombre>
+<ubicacion>Campus: Ocotlán  </ubicacion>
+<licenciaturas>Licenciaturas: 4 </licenciaturas>
+<postgrados>Postgrados: 0 </postgrados>
+<profesores>Profesores: 25 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+<nombre>NOVA UNIVERSITAS </nombre>
+<ubicacion>Campus: San Jacinto</ubicacion>
+<licenciaturas>Licenciaturas: 4 </licenciaturas>
+<postgrados>Postgrados: 0 </postgrados>
+<profesores>Profesores: 25 </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+<campus>
+<nombre>NOVA UNIVERSITAS  </nombre>
+<ubicacion>Campus: Juxtlahuaca </ubicacion>
+<licenciaturas>Licenciaturas: 4  </licenciaturas>
+<postgrados> Postgrados: 0  </postgrados>
+<profesores>Profesores: 25  </profesores>
+<margen>_________________________________________________________________________</margen>
+</campus>
+</novauniversitas>
+
+<uncos>
+<nombre>UNCOS </nombre>
+<ubicacion>Campus: Santiago Pinotepa Nacional</ubicacion>
+<licenciaturas>Licenciaturas: 5 </licenciaturas>
+<postgrados>Postgrados: 0 </postgrados>
+<profesores>Profesores: 23 </profesores>
+<margen>_________________________________________________________________________</margen>
+</uncos>
+
+<unicha>
+<nombre>UNICHA </nombre>
+<ubicacion>Campus: Chalcatongo de Hidalgo</ubicacion>
+<licenciaturas>Licenciaturas: 3 </licenciaturas>
+<postgrados>Postgrados: 0 </postgrados>
+<profesores>Profesores: 17 </profesores>
+<margen>_________________________________________________________________________</margen>
+</unicha>
+</suneo>
