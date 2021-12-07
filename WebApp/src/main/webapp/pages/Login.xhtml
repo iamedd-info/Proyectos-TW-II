@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <body>
+
+        <ui:composition template="../plantilla/principal.xhtml">
+            <ui:define name="main-body">
+                <div class="container">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Correo electronico:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"></input>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <h:outputLink class="btn btn-primary" style="margin:10px" value="#{request.contextPath}/faces/pages/Registrarse.xhtml">Registrarse</h:outputLink>
+                    </form>
+                </div>
+            </ui:define>
+        </ui:composition>
+
+    </body>
+</html>

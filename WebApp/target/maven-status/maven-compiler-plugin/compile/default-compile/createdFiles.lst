@@ -1,0 +1,12 @@
+model/DesarrolladorModelImpl.class
+controller/DesarrolladorController.class
+model/UsuarioModelImpl.class
+service/UsuarioServicelImpl.class
+model/IUsuarioModel.class
+model/IDesarrolladorModel.class
+service/IDesarrolladorService.class
+service/IUsuarioService.class
+service/DesarrolladorServicelImpl.class
+entity/Desarrollador.class
+entity/Usuario.class
+controller/UsuarioController.class

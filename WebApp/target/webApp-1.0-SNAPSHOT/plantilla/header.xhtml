@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+    <body>
+
+        <ui:composition >
+            <div class="container">
+                <header class="blog-header py-3">
+                    <div class="row flex-nowrap justify-content-between align-items-center">
+                        <div class="col-4 pt-1">
+                            
+                        </div>
+                        <div class="col-4 text-center">
+                            <a class="blog-header-logo text-dark" href="#">Mia-Hogar</a>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end align-items-center">
+                            <a class="link-secondary" href="#" aria-label="Search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+                            </a>
+                            <h:outputLink class="btn btn-sm btn-outline-secondary" value="#{request.contextPath}/faces/pages/Login.xhtml">Entrar</h:outputLink>
+                           
+                        </div>
+                    </div>
+                </header>
+
+                <div class="nav-scroller py-1 mb-2">
+                    <nav class="nav d-flex justify-content-between">
+                        <h:outputLink class="p-2 link-secondary" value="#{request.contextPath}/faces/pages/index.xhtml"><i class="fa fa-leaf" aria-hidden="true"></i>&nbsp;Inicio</h:outputLink>
+                        <h:outputLink class="p-2 link-secondary" value="#{request.contextPath}/faces/pages/cuartos.xhtml"><i class="fa fa-bed" aria-hidden="true"></i> Cuartos</h:outputLink>
+                        <h:outputLink class="p-2 link-secondary" value="#{request.contextPath}/faces/pages/departamentos.xhtml"><i class="fa fa-building" aria-hidden="true"></i> Departamentos</h:outputLink>
+                        <h:outputLink class="p-2 link-secondary" value="#{request.contextPath}/faces/pages/casas.xhtml"><i class="fa fa-home"></i>Casas</h:outputLink>
+                        <h:outputLink class="p-2 link-secondary" value="#{request.contextPath}/faces/pages/cliente.xhtml"><i class="fa fa-users" aria-hidden="true"></i> Contactos</h:outputLink> 
+                        <h:outputLink class="p-2 link-secondary" value="#{request.contextPath}/faces/pages/desarrolladores.xhtml"><i class="fas fa-code"></i> Desarrolladores</h:outputLink>   
+                    </nav>
+                </div>
+            </div>
+        </ui:composition>
+    </body>
+</html>
