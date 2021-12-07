@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui">
+
+    <body>
+
+        <ui:composition template="../plantilla/principal.xhtml">
+            <ui:define name="main-body">]
+                <div class="p-4 p-md-5 mb-4 text-white rounded bg-success">
+                    <div class="col-md-6 px-0">
+
+                        <div id="idUsuario">
+                            <div class="ui-grid ui-grid-responsive">
+                                <div class="ui-grid-row">
+                                    <div class="ui-grid-col-2"></div>
+                                    <div class="ui-grid-col-10">
+                                        <br /><br />
+                                        <h:form id="idForm">
+                                            <p:growl id="idMensaje" showDetail="true"/><!--Mensaje de eliminación -->
+                                            <p:dataTable id="idTabla" 
+                                                         var="registro" 
+                                                         value="#{usuarioController.listaUsuario}" 
+                                                         selection="#{usuarioController.selectedUsuario}"               
+                                                         rowKey="#{registro.idUsuario}"
+                                                         editable="true"
+                                                         style="margin-bottom:20px"
+                                                         emptyMessage="No hay registros"
+                                                         scrollable="true"
+                                                         scrollHeight="200">
+
+                                                <f:facet name="header">
+                                                    Usuario
+                                                </f:facet>
+
+                                                <p:ajax event="rowSelect" listener="#{usuarioController.onRowSelect}" update=":idForm:idMensaje" /> 
+                                                <p:ajax event="rowEdit" listener="#{usuarioController.onRowEdit}" update=":idForm:idMensaje" />
+                                                <p:ajax event="rowEditCancel" listener="#{usuarioController.onRowCancel}" update=":idForm:idMensaje" />
+
+                                                                                              <p:column headerText="Nombre">
+                                                    <p:cellEditor>
+                                                        <f:facet name="output"><h:outputText value="#{registro.nombre}" /></f:facet>
+                                                        <f:facet name="input"><p:inputText value="#{registro.nombre}" style="width:100%" label="Year"/></f:facet>
+                                                    </p:cellEditor>
+                                                </p:column>     
+                                                
+                                                  <p:column headerText="apellido" style="width: 200px">
+                                                    <p:cellEditor>
+                                                        <f:facet name="output">
+                                                            <h:outputText value="#{registro.apellido}" />
+                                                        </f:facet>
+                                                        <f:facet name="input">
+                                                            <p:inputText id="modelInput" value="#{registro.apellido}" style="width:100%"/>
+                                                        </f:facet>
+                                                    </p:cellEditor>
+                                                </p:column>
+
+                                                <p:column style="width:72px" headerText="Editar">
+                                                    <p:rowEditor />
+                                                </p:column>
+
+                                                <p:column style="width:82px" headerText="eliminar">
+                                                    <p:commandButton title="Eliminar el registro"
+                                                                     action="#{usuarioController.eliminarRegistro(registro)}" 
+                                                                     icon="ui-icon-trash"
+                                                                     update=":idForm:idTabla, :idForm:idMensaje" >
+
+                                                    </p:commandButton>
+                                                </p:column>
+
+                                                <f:facet name="footer"> 
+                                                    <p:commandButton id ="buttonNew" value="Crear Nuevo Registro" update=":idForm:idTabla"/> 
+                                                </f:facet> 
+                                            </p:dataTable>
+
+                                            <h:panelGrid id="idPanel" columns="2" > 
+                                                <h:outputLabel value="Id usuario:"/> 
+                                                <p:inputText id="idCodigo" value="#{usuarioController.usuario.idUsuario}" /> 
+                                                <h:outputLabel value="Nombre usuario"/> 
+                                                <p:inputText id="idNombre" value="#{usuarioController.usuario.nombre}" /> 
+                                                 <h:outputLabel value="Apellido usuario"/> 
+                                                <p:inputText id="idPwd" value="#{usuarioController.usuario.apellido}" /> 
+                                                <p:commandButton action="#{usuarioController.agregarRegistro()}" 
+                                                                 value="Guardar Registro" 
+                                                                 update=":idForm:idTabla, :idForm:idMensaje"
+                                                                 onclick="document.getElementById('idNombre').value = 'Nuevo nombre';document.getElementById('idCodigo').value = 'Nuevo Código';"/> 
+                                            </h:panelGrid>                           
+                                        </h:form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </ui:define>
+        </ui:composition>
+
+    </body>
+</html>
